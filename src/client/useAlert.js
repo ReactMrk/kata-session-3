@@ -6,10 +6,12 @@ const useAlert = () => {
   const { clients } = useContext(ClientContext);
 
   useEffect(() => {
-    if (displayAlert !== 'INIT') setDisplayAlert('DISPLAY');
-    setTimeout(() => {
-      setDisplayAlert('NOT_DISPLAY');
-    }, 2000);
+    if (clients.length > 0) {
+      setDisplayAlert('DISPLAY');
+      setTimeout(() => {
+        setDisplayAlert('NOT_DISPLAY');
+      }, 2000);
+    }
   }, [clients]);
 
   return displayAlert;
