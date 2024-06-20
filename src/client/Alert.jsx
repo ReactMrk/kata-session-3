@@ -1,9 +1,10 @@
+import React from 'react';
 import useAlert from './useAlert';
 
 const Alert = () => {
-  const displayAlert = useAlert();
+  //const displayAlert = useAlert();
 
-  if (!displayAlert) return null;
+  if (true) return null;
 
   return (
     <div className="alert">

@@ -1,5 +1,6 @@
+import React from 'react';
 import ClientManagement from "./client/ClientManagement";
-import './App.css'
+import './App.css';
 
 const App = () => {
   return (
