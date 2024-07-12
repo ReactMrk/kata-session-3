@@ -20,3 +20,5 @@ As you will find in the file, you need to write a test to assert the component i
 **Exercise 2.**
 
 Create a test for Client Management, all components should be mock. The goal is to mock the implementation of both ClientForm and ClientList, and assert that both components are rendered using this mocked implementation.
+
+The file is ClientManagement.spec.js
