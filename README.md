@@ -12,7 +12,9 @@ Run app: **npm run dev**
 
 **Exercise 1.**
 
-Create a test for alert component. The new test should be a unit test, so the custom hook should be mocked.
+Create a test for alert component. The new test should be a unit test, so the custom hook should be mocked. The file where you need towrite the tests is Alert.spec.js
+
+As you will find in the file, you need to write a test to assert the component is rendered when useAlert() custom hook is true, and to assert that nothing is display if the custom hook is false.
 
 
 **Exercise 2.**
